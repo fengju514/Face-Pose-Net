@@ -1,0 +1,3 @@
+[submodule "face_renderer"]
+	path = face_renderer
+	url = https://github.com/iacopomasi/face_specific_augm/
