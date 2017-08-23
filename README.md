@@ -32,6 +32,7 @@ The code has been tested on Linux only. On Linux you can rely on the default ver
 ## Usage
 
 **Important:** In order to download **both** FPN code and the render use `git clone --recursive`
+**Important:** Please download the learned models in https://www.dropbox.com/s/r38psbq55y2yj4f/fpn_new_model.tar.gz?dl=0  
 
 ### Run it
 
