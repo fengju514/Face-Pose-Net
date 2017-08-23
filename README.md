@@ -1,5 +1,4 @@
 # Face-Pose-Net
-===========
 
 This page contains DCNN model and python code to robustly estimate 6 degrees of freedom, 3D face pose from an unconstrained image, without the use of face landmark detectors. The method is described in the paper:
 
