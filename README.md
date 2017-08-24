@@ -2,7 +2,7 @@
 
 This page contains DCNN model and python code to robustly estimate 6 degrees of freedom, 3D face pose from an unconstrained image, without the use of face landmark detectors. The method is described in the paper:
 
-_F. Chang, A. Tran, T. Hassner, I. Masi, R. Nevatia, G. Medioni, "FacePoseNet: Making a Case for Landmark-Free Face Alignment", in arXiv, 2017_ [1].
+_F. Chang, A. Tran, T. Hassner, I. Masi, R. Nevatia, G. Medioni, "FacePoseNet: Making a Case for Landmark-Free Face Alignment", in 7th IEEE International Workshop on Analysis and Modeling of Faces and Gestures, ICCV Workshops, 2017_ [1].
 
 This release bundles up our **FacePoseNet** (FPN) with the **Face Renderer** from Masi _et al._ [2,5], which is available separately from [this project page](https://github.com/iacopomasi/face_specific_augm).
 
@@ -31,8 +31,8 @@ The code has been tested on Linux only. On Linux you can rely on the default ver
 
 ## Usage
 
-* **Important:** In order to download **both** FPN code and the render use `git clone --recursive`
-* **Important:** Please download the learned models in https://www.dropbox.com/s/r38psbq55y2yj4f/fpn_new_model.tar.gz?dl=0  
+* **Important:** In order to download **both** FPN code and the renderer use `git clone --recursive`
+* **Important:** Please download the learned models from https://www.dropbox.com/s/r38psbq55y2yj4f/fpn_new_model.tar.gz?dl=0   and make sure that the FPN models are stored in the folder `fpn_new_model`.
 
 ### Run it
 
@@ -43,6 +43,8 @@ To run it directly on a single image (software will run FPN to estimate the pose
 ```bash
 $ python demo.py <image-path>
 ```
+
+We provide a sample input available [here](input.csv)
 
 ## Sample Results
 TBD
@@ -57,7 +59,7 @@ Please cite our paper with the following bibtex if you use our face renderer:
 ``` latex
 @inproceedings{masi16dowe,
       title={{F}ace{P}ose{N}et: Making a Case for Landmark-Free Face Alignment},
-      booktitle = {arxiv},
+      booktitle = {7th IEEE International Workshop on Analysis and Modeling of Faces and Gestures, ICCV Workshops},
       author={
       Feng-ju Chang
       and Anh Tran 
