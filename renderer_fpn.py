@@ -3,7 +3,7 @@ import lmdb
 import sys
 import numpy as np
 import cv2
-render_path = '../git_render/'
+render_path = 'face_renderer/'
 sys.path.append(render_path)
 import myutil
 import config
