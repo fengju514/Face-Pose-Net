@@ -65,7 +65,7 @@ Please cite our paper with the following bibtex if you use our face renderer:
       title={{F}ace{P}ose{N}et: Making a Case for Landmark-Free Face Alignment},
       booktitle = {7th IEEE International Workshop on Analysis and Modeling of Faces and Gestures, ICCV Workshops},
       author={
-      Feng-ju Chang
+      Feng-Ju Chang
       and Anh Tran 
       and Tal Hassner 
       and Iacopo Masi 
