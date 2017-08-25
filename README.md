@@ -46,7 +46,7 @@ $ python main_fpn.py <input-list-path>
 
 We provide a sample input list available [here](input.csv). Note that you should also provide the face bounding box information, 
 ```bash
-<top-left-x, top-left-y, box width, box height>
+<FACE_X, FACE_y, FACE_WIDTH, FACE_HEIGHT>
 ```
 either obtained manually or by the face detector. 
 
