@@ -38,10 +38,10 @@ The code has been tested on Linux only. On Linux you can rely on the default ver
 
 The alignment and rendering can be used from the command line in the following, different ways.
 
-To run it directly on a single image (software will run FPN to estimate the pose and then render novel views based on the estimated pose):
+To run it directly on a list of images (software will run FPN to estimate the pose and then render novel views based on the estimated pose):
 
 ```bash
-$ python demo.py <image-path>
+$ python main_fpn.py <image-list-path>
 ```
 
 We provide a sample input available [here](input.csv)
