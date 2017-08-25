@@ -41,13 +41,13 @@ The alignment and rendering can be used from the command line in the following, 
 To run it directly on a list of images (software will run FPN to estimate the pose and then render novel views based on the estimated pose):
 
 ```bash
-$ python main_fpn.py <image-list-path>
+$ python main_fpn.py <input-list-path>
 ```
 
-We provide a sample input available [here](input.csv)
+We provide a sample input list available [here](input.csv). Note that you should also provide the face bounding box information, either obtained manually or by the face detector. 
 
 ## Sample Results
-TBD
+Please see the rendered images in the [here](output_render) folder
 
 ## Current Limitations
 FPN is currently trained with a single 3D generic shape, without accounting for facial expressions. Addressing these is planned as future work.
