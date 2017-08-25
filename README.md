@@ -52,26 +52,16 @@ where `<FACE_X, FACE_y, FACE_WIDTH, FACE_HEIGHT>` is the face bounding box infor
 
 ## Sample Results
 Please see the input images [here](images) and rendered outputs [here](output_render).
+
 The rendered images will be saved here!
-
-
-
 ## Subject 1 ##
-
 ### input: ### 
-
 ![sbj1](../images/input1.jpg)
-
 ### rendering: ### 
-
 ![sbj1](./subject1/subject1_a_rendered_aug_-00_00_10.jpg)
-
 ![sbj1](./subject1/subject1_a_rendered_aug_-22_00_10.jpg)
-
 ![sbj1](./subject1/subject1_a_rendered_aug_-40_00_10.jpg)
-
 ![sbj1](./subject1/subject1_a_rendered_aug_-55_00_10.jpg)
-
 ![sbj1](./subject1/subject1_a_rendered_aug_-75_00_10.jpg)
 
 
