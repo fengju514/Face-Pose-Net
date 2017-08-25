@@ -5,7 +5,14 @@ import numpy as np
 import cv2
 render_path = 'face_renderer/'
 sys.path.append(render_path)
-import myutil
+try:
+    import myutil
+except ImportError as ie:
+    print '****************************************************************'
+    print '**** Have you forgeten to "git clone --recursive"?          ****'
+    print '**** You have to do that to also download the face renderer ****'
+    print '****************************************************************'
+    exit(0)
 import config
 opts = config.parse()
 import camera_calibration as calib
