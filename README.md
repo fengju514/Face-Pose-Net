@@ -47,7 +47,7 @@ $ python main_fpn.py <input-list-path>
 We provide a sample input list available [here](input.csv). Note that you should also provide the face bounding box information, either obtained manually or by the face detector. 
 
 ## Sample Results
-Please see the rendered images in [here](output_render). The corresponding input images are in [here](images)
+Please see the input images [images](images) and rendered outputs [output_render](output_render).
 
 ## Current Limitations
 FPN is currently trained with a single 3D generic shape, without accounting for facial expressions. Addressing these is planned as future work.
