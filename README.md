@@ -48,7 +48,7 @@ We provide a sample input list available [here](input.csv).
 ```bash
 <ID, FILE, FACE_X, FACE_y, FACE_WIDTH, FACE_HEIGHT>
 ```
-where <FACE_X, FACE_y, FACE_WIDTH, FACE_HEIGHT> is the face bounding box information, either obtained manually or by the face detector. 
+where `<FACE_X, FACE_y, FACE_WIDTH, FACE_HEIGHT>` is the face bounding box information, either obtained manually or by the face detector. 
 
 ## Sample Results
 Please see the input images [here](images) and rendered outputs [here](output_render).
