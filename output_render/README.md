@@ -15,8 +15,6 @@ The rendered images will be saved here!
 ### input: ### 
 ![sbj2](../images/input2.jpg)
 ### rendering: ### 
-![sbj2](./subject2/subject2_a_rendered_aug_-00_00_10.jpg)
-![sbj2](./subject2/subject2_a_rendered_aug_-22_00_10.jpg)
 ![sbj2](./subject2/subject2_a_rendered_aug_-40_00_10.jpg)
 ![sbj2](./subject2/subject2_a_rendered_aug_-55_00_10.jpg)
 ![sbj2](./subject2/subject2_a_rendered_aug_-75_00_10.jpg)
@@ -90,3 +88,4 @@ The rendered images will be saved here!
 ![sbj10](./subject10/subject10_a_rendered_aug_-40_00_10.jpg)
 ![sbj10](./subject10/subject10_a_rendered_aug_-55_00_10.jpg)
 ![sbj10](./subject10/subject10_a_rendered_aug_-75_00_10.jpg)
+
