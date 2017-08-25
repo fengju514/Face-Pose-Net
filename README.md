@@ -44,11 +44,11 @@ To run it directly on a list of images (software will run FPN to estimate the po
 $ python main_fpn.py <input-list-path>
 ```
 
-We provide a sample input list available [here](input.csv). Note that you should also provide the face bounding box information, 
+We provide a sample input list available [here](input.csv).
 ```bash
-<FACE_X, FACE_y, FACE_WIDTH, FACE_HEIGHT>
+<ID, FILE, FACE_X, FACE_y, FACE_WIDTH, FACE_HEIGHT>
 ```
-either obtained manually or by the face detector. 
+where <FACE_X, FACE_y, FACE_WIDTH, FACE_HEIGHT> is the face bounding box information, either obtained manually or by the face detector. 
 
 ## Sample Results
 Please see the input images [here](images) and rendered outputs [here](output_render).
