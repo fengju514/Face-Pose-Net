@@ -12,6 +12,8 @@ This release bundles up our **FacePoseNet** (FPN) with the **Face Renderer** fro
 
 The result is an end-to-end pipeline that seamlessly estimates facial pose and produces multiple rendered views to be used for face alignment and data augmentation.
 
+![Teaser](http://www-bcf.usc.edu/~iacopoma/img/FPN3.png)
+
 ## Features
 * **6DoF 3D Head Pose estimation** + **3D rendered facial views**.
 * Does not use **fragile** landmark detectors
