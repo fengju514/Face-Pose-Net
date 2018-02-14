@@ -9,7 +9,7 @@ try:
     import myutil
 except ImportError as ie:
     print '****************************************************************'
-    print '**** Have you forgeten to "git clone --recursive"?          ****'
+    print '**** Have you forgotten to "git clone --recursive"?          ****'
     print '**** You have to do that to also download the face renderer ****'
     print '****************************************************************'
     exit(0)
