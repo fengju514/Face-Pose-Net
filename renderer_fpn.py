@@ -12,6 +12,7 @@ except ImportError as ie:
     print '**** Have you forgotten to "git clone --recursive"?          ****'
     print '**** You have to do that to also download the face renderer ****'
     print '****************************************************************'
+    print ie.message
     exit(0)
 import config
 opts = config.parse()
