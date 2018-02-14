@@ -3,7 +3,9 @@ import lmdb
 import sys
 import numpy as np
 import cv2
-render_path = 'face_renderer/'
+import os
+this_path = os.path.dirname(os.path.abspath(__file__))
+render_path = this_path+'/face_renderer/'
 sys.path.append(render_path)
 try:
     import myutil
