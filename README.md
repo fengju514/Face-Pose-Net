@@ -76,17 +76,11 @@ FPN is currently trained with a single 3D generic shape, without accounting for 
 Please cite our paper with the following bibtex if you use our face renderer:
 
 ``` latex
-@inproceedings{chang17fpn,
-      title={{F}ace{P}ose{N}et: Making a Case for Landmark-Free Face Alignment},
-      booktitle = {7th IEEE International Workshop on Analysis and Modeling of Faces and Gestures, ICCV Workshops},
-      author={
-      Feng-ju Chang
-      and Anh Tran 
-      and Tal Hassner 
-      and Iacopo Masi 
-      and Ram Nevatia
-      and G\'{e}rard Medioni},
-      year={2017},
+@inproceedings{nirkin2018_faceswap,
+      title={On Face Segmentation, Face Swapping, and Face Perception},
+      booktitle = {IEEE Conference on Automatic Face and Gesture Recognition},
+      author={Nirkin, Yuval and Masi, Iacopo and Tran, Anh Tuan and Hassner, Tal and Medioni, and G\'{e}rard Medioni},
+      year={2018},
     }
 ```
 
