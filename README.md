@@ -22,6 +22,15 @@ The result is an end-to-end pipeline that seamlessly estimates facial pose and p
 * The codes to convert 6DoF head pose to 3x4 projection matrix is [here](https://github.com/fengju514/Face-Pose-Net/blob/fb733f358d9f633f6525a41f3a7a0a99e5c71647/main_predict_6DoF.py#L263-L268) 
 * The codes to convert 11 parameters / 3x4 projection matrix to 6DoF head pose is [here](https://github.com/fengju514/Face-Pose-Net/blob/92bd65fa056d17065890e186ca2f2b376a5ab135/main_predict_ProjMat.py#L306-L308)
 * The corresponding 3D shape and landmarks can be obtained by predicted 6DoF head pose [3D shape from 6DoF](https://github.com/fengju514/Face-Pose-Net/blob/92bd65fa056d17065890e186ca2f2b376a5ab135/main_predict_6DoF.py#L271-L297) or by predicted 11 parameters [3D shape from 11 parameters](https://github.com/fengju514/Face-Pose-Net/blob/92bd65fa056d17065890e186ca2f2b376a5ab135/main_predict_ProjMat.py#L272-L297)
+* Run new FPNs:
+```bash
+$ python main_predict_6DoF.py <gpu_id> <input-list-path>
+```
+or 
+```bash
+$ python main_predict_ProjMat.py <gpu_id> <input-list-path>
+```
+
 * The same renderer can be used. Instead of feeding into the 6DoF pose, you need to feed into the predicted landmarks either from 6DoF head pose or from 3x4 projection matrix. Please see an example in demo.py of [this project page](https://github.com/iacopomasi/face_specific_augm)
 
 ## Features
