@@ -20,7 +20,7 @@ The result is an end-to-end pipeline that seamlessly estimates facial pose and p
 * The codes to convert between 6DoF head pose and 3x4 projection matrix are added so that the 3D shape and landmarks can be obtained as well
 * The same renderer can be used. Instead of feeding into the 6DoF pose, you need to feed into the predicted landmarks from 6DoF head pose or from 3x4 projection matrix. Please see an example in demo.py of [this project page](https://github.com/iacopomasi/face_specific_augm)
 
-**Old Features**
+## Features
 * **6DoF 3D Head Pose estimation** + **3D rendered facial views**.
 * Does not use **fragile** landmark detectors
 * Robustness on images landmark detectors struggle with (low rez., occluded, etc.)
