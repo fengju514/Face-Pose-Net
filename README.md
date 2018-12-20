@@ -19,8 +19,9 @@ The result is an end-to-end pipeline that seamlessly estimates facial pose and p
 * **Two versions of FPNs are added**: 
 * (1) **Predict 6DoF head pose** (scale, pitch, yaw, roll, translation_x, translation_y), [main_predict_6DoF.py](./main_predict_6DoF.py)
 * (2) **Predict 11 parameters of the 3x4 projection matrix** (under weak perspective transformation assumption) [main_predict_ProjMat.py](./main_predict_ProjMat.py)
-* The codes to convert between 6DoF head pose and 3x4 projection matrix are added the 3D shape and landmarks can be obtained as well [line 263-268](./main_predict_6DoF.py)  or [line 306-308](./main_predict_ProjMat.py)
-* The corresponding 3D shape and landmarks can be obtained by predicted 6DoF head pose [line 271-297](./main_predict_6DoF.py) or by predicted 11 parameters [line 272-297](./main_predict_ProjMat.py)
+* The codes to convert 6DoF head pose to 3x4 projection matrix is in [line 263-268 of main_predict_6DoF.py)](./main_predict_6DoF.py)
+* The codes to convert 11 parameters / 3x4 projection matrix to 6DoF head pose is in [line 306-308 of main_predict_ProjMat.py](./main_predict_ProjMat.py)
+* The corresponding 3D shape and landmarks can be obtained by predicted 6DoF head pose [line 271-297 of main_predict_6DoF.py](./main_predict_6DoF.py) or by predicted 11 parameters [line 272-297 of main_predict_ProjMat.py](./main_predict_ProjMat.py)
 * The same renderer can be used. Instead of feeding into the 6DoF pose, you need to feed into the predicted landmarks either from 6DoF head pose or from 3x4 projection matrix. Please see an example in demo.py of [this project page](https://github.com/iacopomasi/face_specific_augm)
 
 ## Features
