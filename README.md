@@ -14,7 +14,7 @@ The result is an end-to-end pipeline that seamlessly estimates facial pose and p
 
 ![Teaser](http://www-bcf.usc.edu/~iacopoma/img/FPN3.png)
 
-## Updates (Modified / New features)
+## Updates (Modified / New features, 12/20/2018)
 * FPN structure is changed to ResNet-101 for better pose prediction
 * **Two versions of FPNs are added**: (1) **Predict 6DoF head pose** (scale, pitch, yaw, roll, translation_x, translation_y), (2) **Predict 11 parameters of the 3x4 projection matrix** (under weak perspective transformation assumption)
 * The codes to convert between 6DoF head pose and 3x4 projection matrix are added so that the 3D shape and landmarks can be obtained as well
