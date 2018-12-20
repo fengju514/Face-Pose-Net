@@ -30,6 +30,12 @@ or
 ```bash
 $ python main_predict_ProjMat.py <gpu_id> <input-list-path>
 ```
+We provide a sample input list available [here](./input_list.txt).
+```bash
+<FILE_NAME, FACE_X, FACE_y, FACE_WIDTH, FACE_HEIGHT>
+```
+where `<FACE_X, FACE_y, FACE_WIDTH, FACE_HEIGHT>` is the x,y coordinates of the upper-left point, the width, and the height of the tight face bounding box, either obtained manually, by the face detector or by the landmark detector. 
+
 
 * The same renderer can be used. Instead of feeding into the 6DoF pose, you need to feed into the predicted landmarks either from 6DoF head pose or from 3x4 projection matrix. Please see an example in demo.py of [this project page](https://github.com/iacopomasi/face_specific_augm)
 
