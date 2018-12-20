@@ -14,7 +14,7 @@ The result is an end-to-end pipeline that seamlessly estimates facial pose and p
 
 ![Teaser](http://www-bcf.usc.edu/~iacopoma/img/FPN3.png)
 
-## Updates (Modified / New features, 12/20/2018)
+## Updates (Modified and New features, 12/20/2018)
 * FPN structure is changed to ResNet-101 for better pose prediction [fpn-resnet101](./ResNet/ThreeDMM_shape.py)
 * **Two versions of FPNs (under the assumption of weak perspective transformation) are added**: 
 * (1) **Predict 6DoF head pose** (scale, pitch, yaw, roll, translation_x, translation_y):  [main_predict_6DoF.py](./main_predict_6DoF.py)
