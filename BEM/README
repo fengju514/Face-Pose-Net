@@ -1,5 +1,0 @@
-3DMM shape and expression mat files from the Basel Face model [https://faces.dmi.unibas.ch/bfm/] and the 3DDFA paper [http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm]
-
-
-For your convenience, we have already put them in the dropbox. So please download them ./BFM/Model_Shape.mat and ./BFM/Model_Exp.mat
-And put these two files in this folder
