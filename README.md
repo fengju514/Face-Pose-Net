@@ -12,7 +12,7 @@ This release bundles up our **FacePoseNet** (FPN) with the **Face Renderer** fro
 
 The result is an end-to-end pipeline that seamlessly estimates facial pose and produces multiple rendered views to be used for face alignment and data augmentation.
 
-![Teaser](http://www-bcf.usc.edu/~iacopoma/img/FPN3.png)
+![Teaser](./teasers/diagram.jpg)
 
 ## Updates (Modified and New features, 12/20/2018)
 * FPN structure is changed to ResNet-101 for better pose prediction [fpn-resnet101](./ResNet/ThreeDMM_shape.py)
