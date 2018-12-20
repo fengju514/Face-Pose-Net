@@ -1,6 +1,6 @@
 # Face-Pose-Net
 
-![Teaser](http://www-bcf.usc.edu/~iacopoma/img/FPN4.jpg)
+![Teaser](https://www.dropbox.com/s/wlmtpibbya14b54/FPN4.jpg?dl=0)
 <sub>**Extreme face alignment examples:** Faces rendered to a 45 degrees yaw angle (aligned to half profile) using our FacePoseNet. Images were taken from the IJB-A collection and represent extreme viewing conditions, including near profile views, occlusions, and low resolution. Such conditions are often too hard for existing face landmark detection methods to handle yet easily aligned with our FacePoseNet.</sub>
 <br/>
 <br/>
