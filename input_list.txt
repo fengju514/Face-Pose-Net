@@ -1,0 +1,3 @@
+./input_samples/HELEN_30427236_2_0.jpg,132.8177,213.8680,183.1707,171.1925
+./input_samples/LFPW_image_test_0001_0.jpg,132.3776,213.9545,178.3532,168.3772
+./input_samples/LFPW_image_test_0008_0.jpg,138.6822,210.8271,172.3008,174.2025
