@@ -22,6 +22,8 @@ The result is an end-to-end pipeline that seamlessly estimates facial pose and p
 * The codes to convert 6DoF head pose to 3x4 projection matrix is [here](https://github.com/fengju514/Face-Pose-Net/blob/fb733f358d9f633f6525a41f3a7a0a99e5c71647/main_predict_6DoF.py#L263-L268) 
 * The codes to convert 11 parameters / 3x4 projection matrix to 6DoF head pose is [here](https://github.com/fengju514/Face-Pose-Net/blob/92bd65fa056d17065890e186ca2f2b376a5ab135/main_predict_ProjMat.py#L306-L308)
 * The corresponding 3D shape and landmarks can be obtained by predicted 6DoF head pose [3D shape from 6DoF](https://github.com/fengju514/Face-Pose-Net/blob/92bd65fa056d17065890e186ca2f2b376a5ab135/main_predict_6DoF.py#L271-L297) or by predicted 11 parameters [3D shape from 11 parameters](https://github.com/fengju514/Face-Pose-Net/blob/92bd65fa056d17065890e186ca2f2b376a5ab135/main_predict_ProjMat.py#L272-L297)
+* Download new FPN models:
+* Download BFM models:
 * Run new FPNs:
 ```bash
 $ python main_predict_6DoF.py <gpu_id> <input-list-path>
@@ -34,7 +36,7 @@ We provide a sample input list available [here](./input_list.txt).
 ```bash
 <FILE_NAME, FACE_X, FACE_y, FACE_WIDTH, FACE_HEIGHT>
 ```
-where `<FACE_X, FACE_y, FACE_WIDTH, FACE_HEIGHT>` is the x,y coordinates of the upper-left point, the width, and the height of the tight face bounding box, either obtained manually, by the face detector or by the landmark detector. 
+where `<FACE_X, FACE_y, FACE_WIDTH, FACE_HEIGHT>` is the x,y coordinates of the upper-left point, the width, and the height of the tight face bounding box, either obtained manually, by the face detector or by the landmark detector. The predicted 6DoF and 11DoF results would be saved in [output_6DoF folder](https://github.com/fengju514/Face-Pose-Net/blob/a7923b764f92892021297fd046065c22a41dc519/main_predict_6DoF.py#L232-L236) and [output_ProjMat folder](https://github.com/fengju514/Face-Pose-Net/blob/a7923b764f92892021297fd046065c22a41dc519/main_predict_ProjMat.py#L235-L239) respectively. The output 3D shapes and landmarks by 6DoF and 11DoF are saved in [output_6DoF folder](https://github.com/fengju514/Face-Pose-Net/blob/a7923b764f92892021297fd046065c22a41dc519/main_predict_6DoF.py#L301) and in [output_ProjMat folder](https://github.com/fengju514/Face-Pose-Net/blob/a7923b764f92892021297fd046065c22a41dc519/main_predict_ProjMat.py#L301) respectively
 
 
 * The same renderer can be used. Instead of feeding into the 6DoF pose, you need to feed into the predicted landmarks either from 6DoF head pose or from 3x4 projection matrix. Please see an example in demo.py of [this project page](https://github.com/iacopomasi/face_specific_augm)
