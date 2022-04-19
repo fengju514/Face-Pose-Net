@@ -113,7 +113,7 @@ def esimatePose(root_model_path, inputFile, outputDB, model_used, lr_rate_scalar
     if use_gpu == False:
         dev = '/cpu:0'
         print "Using CPU"
-    elif usc_gpu == True:
+    elif use_gpu == True:
         dev = '/gpu:0'
         print "Using GPU " + os.environ['CUDA_VISIBLE_DEVICES']
     else:
